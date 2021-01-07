@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Football Fan Form</title>
+</head>
+<body>
+    <div></div>
+    <header>
+        <h1>Football Fan Survey</h1>
+        <p>Thank you for participating in this survey</p>
+    </header>
+    <form action="">
+        <label class="form-items"> Name</label><br>
+        <input class="form-text" type="text" placeholder="Enter your name"><br> <br>
+        <label class="form-items"> Email</label><br>
+        <input class="form-text" type="email" placeholder="Enter you email"><br><br>
+        <label class="form-items"> Age (optional)</label><br>
+        <input class="form-text" type="date"><br> <br>
+
+        <label for="favorite-stadium">Which is your favorite stadium?</label><br>
+        <input type="radio" name="favorite-stadium" value="san-siro"> <label for="san-siro">San Siro</label><br>
+        <input type="radio" name="favorite-stadium" value="old-trafford"> <label for="old-trafford">Old Trafford</label><br>
+        <input type="radio" name="favorite-stadium" value="emirates-stadium"> <label for="Emirates Stadium">San Siro</label><br><br>
+
+        <label class="form-items" for="club-you-support"> Which football club do you support?</label><br>
+        <select class="form-text" name="club-you-support" id="club-you-support">
+            <option value="arsenal">Arsenal</option>
+            <option value="manchester-united"> Manchester United</option>
+            <option value="Chelsea">Chelsea</option>
+            <option value="Madrid">Madrid</option>
+            <option value="PSG">PSG</option>
+        </select> <br><br>
+
+        <label for="meet-player">Which player would you like to meet?</label><br>
+        <input type="checkbox" name="meet-player" value="ronaldo"> <label>Ronaldo</label><br>
+        <input type="checkbox" name="meet-player" value="messi"> <label>Messi</label><br>
+        <input type="checkbox" name="meet-player" value="lewandowski"> <label>Lewandowski</label><br>
+        <input type="checkbox" name="meet-player" value="gnabry"> <label>Gnabry</label><br>
+        <input type="checkbox" name="meet-player" value="sane"> <label>Sane</label><br>
+        <input type="checkbox" name="meet-player" value="dybala"> <label>Dybala</label><br>
+        <input type="checkbox" name="meet-player" value="neymar"> <label>Neymar</label><br>
+        <input type="checkbox" name="meet-player" value="salah"> <label>Salah</label><br>
+        <input type="checkbox" name="meet-player" value="hazard"> <label>Hazard</label><br>
+        <input type="checkbox" name="meet-player" value="suarez"> <label>Suarez</label><br>
+        <input type="checkbox" name="meet-player" value="ramos"> <label>S. Ramos</label><br>
+        <input type="checkbox" name="meet-player" value="aguero"> <label>Aguero</label><br> <br>
+
+        <label for="comments">Any comments or suggestions?</label>
+        <input type="text" name="comments" id="comment-input"><br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
